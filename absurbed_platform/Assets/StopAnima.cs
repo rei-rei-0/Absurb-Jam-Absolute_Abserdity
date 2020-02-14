@@ -12,7 +12,8 @@ public class StopAnima : MonoBehaviour
         if (collisionInfo.collider.tag == "Player")
         {
             //disables the animator
-            Anima.enabled = false;
+            Anima.enabled = !Anima.enabled;//turns animator and and off :D
+            Debug.Log("fuck");//this is a test
         }
     }
 }
