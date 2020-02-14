@@ -7,6 +7,7 @@ TagManager:
   - player2
   - ObjCollide
   - LevelEnd
+  - lava
   layers:
   - Default
   - TransparentFX
