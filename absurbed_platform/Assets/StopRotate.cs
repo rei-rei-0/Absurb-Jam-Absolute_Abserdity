@@ -14,7 +14,7 @@ public class StopRotate : MonoBehaviour
         void OnCollisionEnter(Collision collisionInfo)
         {
             //we can change the tag to bullet or the tag of obj hitting to pause
-            if (collisionInfo.collider.tag == "Player")
+            if (collisionInfo.collider.tag == "bullet")
             {
                 rotation.enabled = !rotation.enabled;
                 Debug.Log ("FIANLLY");

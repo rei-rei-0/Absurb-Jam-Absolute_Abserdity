@@ -27,9 +27,7 @@ public class ShowEndUI : MonoBehaviour
             Timer.GetComponent<UITimer>().playing = false;//grabs the boolean from the UITimer script
             //timer stops
             //referencing has to be public not private
-
-
-
         }
+
     }
 }

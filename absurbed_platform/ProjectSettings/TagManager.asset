@@ -8,6 +8,7 @@ TagManager:
   - ObjCollide
   - LevelEnd
   - lava
+  - bullet
   layers:
   - Default
   - TransparentFX

@@ -9,11 +9,11 @@ public class StopAnima : MonoBehaviour
 
     void OnCollisionEnter (Collision collisionInfo)
     {
-        if (collisionInfo.collider.tag == "Player")
+        if (collisionInfo.collider.tag == "bullet")
         {
             //disables the animator
             Anima.enabled = !Anima.enabled;//turns animator and and off :D
-            Debug.Log("fuck");//this is a test
+            Debug.Log("animation stop");//this is a test
         }
     }
 }
